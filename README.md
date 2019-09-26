@@ -8,7 +8,7 @@ An MML interpreter
 
 `r`: Rest.
 
-`l#`: Change note length. Use `.` for dotted notes (e.g. `l1` makes all following notes whole notes, `l2.` makes them dotted half notes, and `l12` makes them quarter note triplets). You can also include a note length after an individual note to change only that note's length.
+`l#`: Change note/rest length. Use `.` for dotted notes (e.g. `l1` makes all following notes whole notes, `l2.` makes them dotted half notes, and `l12` makes them quarter note triplets). You can also include a note length after an individual note or rest to change only that note/rest's length.
 
 `<`: Go down an octave
 
