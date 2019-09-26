@@ -1,0 +1,51 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<VBox fx:controller="main.Controller"
+      xmlns:fx="http://javafx.com/fxml">
+    <ScrollPane fitToWidth="true" hbarPolicy="NEVER">
+        <GridPane alignment="center" hgap="10" vgap="10">
+            <columnConstraints>
+                <ColumnConstraints minWidth="60" maxWidth="60" hgrow="NEVER"/>
+                <ColumnConstraints hgrow="ALWAYS"/>
+            </columnConstraints>
+            <Label text="Track 1:"
+                   GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <TextArea fx:id="track1"
+                      GridPane.columnIndex="1" GridPane.rowIndex="0" wrapText="true"/>
+            <Label text="Track 2:"
+                   GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <TextArea fx:id="track2"
+                      GridPane.columnIndex="1" GridPane.rowIndex="1" wrapText="true"/>
+            <Label text="Track 3:"
+                   GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <TextArea fx:id="track3"
+                      GridPane.columnIndex="1" GridPane.rowIndex="2" wrapText="true"/>
+            <Label text="Track 4:"
+                   GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+            <TextArea fx:id="track4"
+                      GridPane.columnIndex="1" GridPane.rowIndex="3" wrapText="true"/>
+            <Label text="Track 5:"
+                   GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+            <TextArea fx:id="track5"
+                      GridPane.columnIndex="1" GridPane.rowIndex="4" wrapText="true"/>
+            <Label text="Track 6:"
+                   GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+            <TextArea fx:id="track6"
+                      GridPane.columnIndex="1" GridPane.rowIndex="5" wrapText="true"/>
+            <Label text="Track 7:"
+                   GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+            <TextArea fx:id="track7"
+                      GridPane.columnIndex="1" GridPane.rowIndex="6" wrapText="true"/>
+            <Label text="Track 8:"
+                   GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+            <TextArea fx:id="track8"
+                      GridPane.columnIndex="1" GridPane.rowIndex="7" wrapText="true"/>
+        </GridPane>
+    </ScrollPane>
+    <Button fx:id="play" text="Play" onAction="#handleSubmitButtonAction"/>
+</VBox>
